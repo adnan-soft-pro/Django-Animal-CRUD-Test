@@ -22,5 +22,5 @@ This is very simple test task to check specific skills like Django and Django RE
 | ------ | ------ | ------ |
 | GET | /api/list/ | Show the list of pets |
 | POST | /api/create/ | Create a new pet|
-| PUT | /api/edit/<id>/ | Update a pet specified by id |
-| DELETE | /api/edit/<id>/ | Delete a pet specified by id |
+| PUT | /api/edit/\<id\>/ | Update a pet specified by id |
+| DELETE | /api/edit/\<id\>/ | Delete a pet specified by id |
