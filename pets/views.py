@@ -32,7 +32,7 @@ class Home(View):
 
     def get(self, request):
         html = "<h1 align=center>Application for Dogs & Cats</h1><hr><br>" \
-               "<h3 align=center><a href='/api'>API For CRUD</a></h3>" \
+               "<h3 align=center><a href='/api'>APIs List</a></h3>" \
                "<h3 align=center><a href='/admin'>Django Admin</a></h3>"
         return HttpResponse(html)
 
